@@ -96,6 +96,7 @@ public class SimpleMailSender {
 			// 设置邮件消息发送的时间
 			mailMessage.setSentDate(new Date());
 			// MiniMultipart类是一个容器类，包含MimeBodyPart类型的对象
+////
 			Multipart mainPart = new MimeMultipart();
 			// 创建一个包含HTML内容的MimeBodyPart
 			BodyPart html = new MimeBodyPart();
@@ -113,3 +114,8 @@ public class SimpleMailSender {
 		return false;
 	}
 }
+
+
+
+
+
